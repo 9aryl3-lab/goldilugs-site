@@ -114,8 +114,26 @@ p { margin: 0; }
   color: var(--ink);
 }
 
-.wordmark span {
+.wordmark .accent {
   color: var(--brass);
+}
+
+.wordmark .lug-span {
+  position: relative;
+  display: inline-block;
+}
+
+.wordmark .lug-span::before {
+  content: "";
+  position: absolute;
+  left: 1px;
+  right: 1px;
+  top: -9px;
+  height: 5px;
+  border-top: 1px solid var(--brass);
+  border-left: 1px solid var(--brass);
+  border-right: 1px solid var(--brass);
+  opacity: 0.8;
 }
 
 .site-nav {
