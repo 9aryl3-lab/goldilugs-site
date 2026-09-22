@@ -329,6 +329,20 @@ p { margin: 0; }
   .hero .wrap { grid-template-columns: 1fr; }
 }
 
+.diagram-card-centered {
+  max-width: 520px;
+  margin: 0 auto;
+  background: #f4f1ea;
+  border: 1px solid var(--line);
+  padding: 24px;
+  box-shadow: 0 24px 60px -20px rgba(0,0,0,0.5);
+}
+
+.diagram-card-centered img {
+  width: 100%;
+  display: block;
+}
+
 /* ---------- Sections ---------- */
 section { padding: 84px 0; }
 
